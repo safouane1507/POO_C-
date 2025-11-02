@@ -1,0 +1,17 @@
+1** Copie superficielle vs copie profonde :
+
+Superficielle : les comptes copiés partagent les mêmes données (pointeurs), donc modifier un compte modifie l’autre.
+
+Profonde : chaque compte a sa propre copie des données, modification indépendante.
+
+2** Compteur statique : pour que tous les comptes partagent le même compteur et qu’il reflète le nombre total de comptes créés.
+
+3** Méthode statique vs normale :
+
+Statique : appartient à la classe, appelée sans objet.
+
+Normale : agit sur un objet spécifique via this.
+
+4** Fonction inline : utile pour les fonctions courtes et très appelées, afin de réduire le coût d’appel.
+
+5** Oublier de libérer la mémoire : entraîne une fuite mémoire, car la mémoire allouée reste inutilisable jusqu’à la fin du programme.
