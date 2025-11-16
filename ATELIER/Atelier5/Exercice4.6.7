@@ -1,0 +1,34 @@
+EXERCICE 4:
+
+1.	Construction de c1 :
+construction objet B : 1 0
+construction objet A : 1 1
+construction objet C : 3 3
+
+2.	Construction de c2 :
+construction objet B : 1 5
+construction objet A : 10 1
+construction objet C : 12 21
+
+
+EXERCICE 6:
+
+a)	Avec:
+point<char> p(60,65);     p.affiche();
+Le programme affiche les caractères ASCII de 60 et 65, donc :
+Coordonnees : < A
+
+b)	l faut afficher les valeurs numériques → utiliser int(x):
+template <class T>
+class point{
+    T x,y;
+public:
+    point(T a, T b){ x=a; y=b; }
+    void affiche(){
+        cout<<"Coordonnees : "<<int(x)<<" "<<int(y)<<endl;
+    }
+};
+
+EXERCICE 7:
+
+Sortie du programme : dans f : 999 suite main
